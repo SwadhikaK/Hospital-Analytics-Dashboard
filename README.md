@@ -1,10 +1,14 @@
 # Hospital-Analytics-Dashboard
 > **Tools:** Power BI | Excel | DAX | Power Query | Data Modeling  
 
-📘 Introduction
+---
+
+## 📘 Introduction
+
 Healthcare organizations increasingly rely on data analytics to monitor patient flow, optimize operational efficiency, control costs, and improve quality of care. Hospitals collect large volumes of patient, treatment, and billing information, but without proper analysis, these insights remain untapped.
 This Power BI project transforms raw hospital data into an interactive analytics dashboard that supports strategic decision-making across patient engagement, financial performance, claim processing, and geographical distribution of services.
 
+---
 
 ## 📌 Project Objective
 
@@ -15,6 +19,7 @@ The main objectives of this project are:
 4.	To provide location-based insights using geographic mapping and city-wise ranking.
 5.	To empower decision-makers with interactive slicers (Ethnicity, Weekday, City, Country, Patient Type, Charges).
 
+---
 
 ## 📂 Data Sources
 
