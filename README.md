@@ -88,16 +88,16 @@ The main objectives of this project are:
 
 ## Calculated Measures
 
-- Total Patients = COUNTROWS(patients)
-- Total Claimcost = SUM(encounters[CLAIM_COST])
-- Total Cities = COUNTA(patients[CITY])
-- Total Charges = SUM(procedures[MEDICAL CHARGES])
-- Total BaseCost = SUM(encounters[BASE_ENCOUNTER_COST])
-- Total BaseCost = SUM(encounters[BASE_ENCOUNTER_COST])
-- Avg Cost per Day = DIVIDE(SUM(procedures[MEDICAL CHARGES]), SUM(procedures[Days_Admitted]))
-- Average Claimcost = AVERAGE(encounters[CLAIM_COST])
-- Average Charges = AVERAGE(procedures[MEDICAL CHARGES])
-- AVERAGE BASE COST = AVERAGE(encounters[BASE_ENCOUNTER_COST])
+- Total Patients 
+- Total Claimcost 
+- Total Cities 
+- Total Charges 
+- Total BaseCost 
+- Total BaseCost 
+- Avg Cost per Day 
+- Average Claimcost
+- Average Charges 
+- AVERAGE BASE COST
 
 ---
 
@@ -112,8 +112,8 @@ The main objectives of this project are:
 
 ## Calculated Columns
 
-- CLAIM_STATUS = IF(encounters[CLAIM_COST] >= 20000, "High Cost",IF(encounters[CLAIM_COST] >= 10000 && encounters[CLAIM_COST] < 20000,"Medium Cost","Low Cost"))
-- BALANCE_CLAIMCOST = encounters[CLAIM_COST]-encounters[BASE_ENCOUNTER_COST]
+- CLAIM_STATUS 
+- BALANCE_CLAIMCOST 
 
 ---
 
